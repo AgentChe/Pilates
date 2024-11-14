@@ -7,15 +7,14 @@
 
 import Foundation
 
-// TODO
 final class GlobalDefinitions {
-    static let domain = "https://yoga.korrekted.com"
-    static let apiKey = "VVPAhTnVXD3b43m7nB24"
+    static let domain = "https://pilates2.korrekted.com"
+    static let apiKey = "uoLZOTflnQqVOkU519eD"
     
     static let otterScaleHost = "https://api.korrekted.com"
-    static let otterScaleApiKey = "AfQhRjznT7gyI96w"
+    static let otterScaleApiKey = "xph2lUhhaygED09X"
     
-    static let applicationTag = "YOGA_WORKOUT"
+    static let applicationTag = "PILATES_WORKOUT"
     static let amplitudeApiKey = "d433d2c66723aeefd10c5b65f91c1fa3"
     
     static let termsOfServiceUrl = URL(string: "https://coffeestop-ou.com/terms.html")!
