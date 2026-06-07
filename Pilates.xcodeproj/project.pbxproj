@@ -158,7 +158,6 @@
 		DECD464E2CE4E9CD0091A803 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD442B2CE4E9CD0091A803 /* UIColor+Extension.swift */; };
 		DECD464F2CE4E9CD0091A803 /* GetWorkoutStepsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD45B42CE4E9CD0091A803 /* GetWorkoutStepsResponse.swift */; };
 		DECD46502CE4E9CD0091A803 /* ProfileMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD45922CE4E9CD0091A803 /* ProfileMediator.swift */; };
-		DECD46512CE4E9CD0091A803 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD44112CE4E9CD0091A803 /* AmplitudeManager.swift */; };
 		DECD46522CE4E9CD0091A803 /* WorkoutTemplateTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD45262CE4E9CD0091A803 /* WorkoutTemplateTableView.swift */; };
 		DECD46532CE4E9CD0091A803 /* PlanStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD45782CE4E9CD0091A803 /* PlanStatus.swift */; };
 		DECD46542CE4E9CD0091A803 /* GetDrillTrainingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD45602CE4E9CD0091A803 /* GetDrillTrainingResponse.swift */; };
@@ -293,7 +292,6 @@
 		DECD46D52CE4E9CD0091A803 /* DTIHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD446D2CE4E9CD0091A803 /* DTIHeaderCell.swift */; };
 		DECD46D62CE4E9CD0091A803 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD44A02CE4E9CD0091A803 /* TabView.swift */; };
 		DECD46D72CE4E9CD0091A803 /* GetWorkoutStepsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD45B32CE4E9CD0091A803 /* GetWorkoutStepsRequest.swift */; };
-		DECD46D82CE4E9CD0091A803 /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD44122CE4E9CD0091A803 /* BranchManager.swift */; };
 		DECD46D92CE4E9CD0091A803 /* CalendarEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD444D2CE4E9CD0091A803 /* CalendarEventType.swift */; };
 		DECD46DA2CE4E9CD0091A803 /* CalendarDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD444C2CE4E9CD0091A803 /* CalendarDateCell.swift */; };
 		DECD46DB2CE4E9CD0091A803 /* GetProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD458A2CE4E9CD0091A803 /* GetProfileRequest.swift */; };
@@ -345,8 +343,6 @@
 		DECD43FF2CE4E9C50091A803 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; };
 		DECD44002CE4E9C50091A803 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		DECD44032CE4E9C50091A803 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DECD44112CE4E9CD0091A803 /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
-		DECD44122CE4E9CD0091A803 /* BranchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
 		DECD44132CE4E9CD0091A803 /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		DECD44152CE4E9CD0091A803 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		DECD44162CE4E9CD0091A803 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
@@ -766,8 +762,6 @@
 		DECD44142CE4E9CD0091A803 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				DECD44112CE4E9CD0091A803 /* AmplitudeManager.swift */,
-				DECD44122CE4E9CD0091A803 /* BranchManager.swift */,
 				DECD44132CE4E9CD0091A803 /* FacebookManager.swift */,
 			);
 			path = Analytics;
@@ -2248,9 +2242,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Pilates/Pods-Pilates-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Pilates/Pods-Pilates-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2401,7 +2399,6 @@
 				DECD464E2CE4E9CD0091A803 /* UIColor+Extension.swift in Sources */,
 				DECD464F2CE4E9CD0091A803 /* GetWorkoutStepsResponse.swift in Sources */,
 				DECD46502CE4E9CD0091A803 /* ProfileMediator.swift in Sources */,
-				DECD46512CE4E9CD0091A803 /* AmplitudeManager.swift in Sources */,
 				DECD46522CE4E9CD0091A803 /* WorkoutTemplateTableView.swift in Sources */,
 				DECD46532CE4E9CD0091A803 /* PlanStatus.swift in Sources */,
 				DECD46542CE4E9CD0091A803 /* GetDrillTrainingResponse.swift in Sources */,
@@ -2536,7 +2533,6 @@
 				DECD46D52CE4E9CD0091A803 /* DTIHeaderCell.swift in Sources */,
 				DECD46D62CE4E9CD0091A803 /* TabView.swift in Sources */,
 				DECD46D72CE4E9CD0091A803 /* GetWorkoutStepsRequest.swift in Sources */,
-				DECD46D82CE4E9CD0091A803 /* BranchManager.swift in Sources */,
 				DECD46D92CE4E9CD0091A803 /* CalendarEventType.swift in Sources */,
 				DECD46DA2CE4E9CD0091A803 /* CalendarDateCell.swift in Sources */,
 				DECD46DB2CE4E9CD0091A803 /* GetProfileRequest.swift in Sources */,
@@ -2602,7 +2598,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2617,7 +2613,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = train.pilates2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2640,7 +2636,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2655,7 +2651,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = train.pilates2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
