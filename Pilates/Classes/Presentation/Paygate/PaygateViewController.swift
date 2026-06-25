@@ -55,7 +55,7 @@ final class PaygateViewController: UIViewController {
             .buyed
             .emit(onNext: { [weak self] success in
                 if !success {
-                    Toast.notify(with: "Paygate.Failed".localized, style: .danger)
+                    self?.showError()
                     return
                 }
                 
@@ -67,7 +67,7 @@ final class PaygateViewController: UIViewController {
             .restored
             .emit(onNext: { [weak self] result in
                 if !result {
-                    Toast.notify(with: "Paygate.Failed".localized, style: .danger)
+                    self?.showError()
                     return
                 }
                 
@@ -132,5 +132,13 @@ private extension PaygateViewController {
         mainView.rightOptionButton.isHidden = active
         mainView.continueButton.isHidden = active
         mainView.restoreButton.isHidden = active
+    }
+    
+    func showError() {
+        let alert = UIAlertController(title: nil,
+                                      message: "Paygate.Failed".localized,
+                                      preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default))
+        present(alert, animated: true)
     }
 }

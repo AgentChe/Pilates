@@ -117,7 +117,6 @@
 		DECD46252CE4E9CD0091A803 /* DrillTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD44642CE4E9CD0091A803 /* DrillTrainingViewController.swift */; };
 		DECD46262CE4E9CD0091A803 /* LogWorkoutProgressResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD45BD2CE4E9CD0091A803 /* LogWorkoutProgressResponse.swift */; };
 		DECD46272CE4E9CD0091A803 /* PaygateProductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD44C62CE4E9CD0091A803 /* PaygateProductButton.swift */; };
-		DECD46282CE4E9CD0091A803 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD44182CE4E9CD0091A803 /* Toast.swift */; };
 		DECD46292CE4E9CD0091A803 /* WorkoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD45A72CE4E9CD0091A803 /* WorkoutTemplate.swift */; };
 		DECD462A2CE4E9CD0091A803 /* ProfileCalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD44E22CE4E9CD0091A803 /* ProfileCalendarDayCell.swift */; };
 		DECD462B2CE4E9CD0091A803 /* TapAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD44242CE4E9CD0091A803 /* TapAreaButton.swift */; };
@@ -347,7 +346,6 @@
 		DECD44152CE4E9CD0091A803 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		DECD44162CE4E9CD0091A803 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
 		DECD44172CE4E9CD0091A803 /* RxActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxActivityIndicator.swift; sourceTree = "<group>"; };
-		DECD44182CE4E9CD0091A803 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DECD441A2CE4E9CD0091A803 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		DECD441B2CE4E9CD0091A803 /* NavigationControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerSettings.swift; sourceTree = "<group>"; };
 		DECD441D2CE4E9CD0091A803 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
@@ -773,7 +771,6 @@
 				DECD44152CE4E9CD0091A803 /* ImagePicker.swift */,
 				DECD44162CE4E9CD0091A803 /* RequestReview.swift */,
 				DECD44172CE4E9CD0091A803 /* RxActivityIndicator.swift */,
-				DECD44182CE4E9CD0091A803 /* Toast.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -2358,7 +2355,6 @@
 				DECD46252CE4E9CD0091A803 /* DrillTrainingViewController.swift in Sources */,
 				DECD46262CE4E9CD0091A803 /* LogWorkoutProgressResponse.swift in Sources */,
 				DECD46272CE4E9CD0091A803 /* PaygateProductButton.swift in Sources */,
-				DECD46282CE4E9CD0091A803 /* Toast.swift in Sources */,
 				DECD46292CE4E9CD0091A803 /* WorkoutTemplate.swift in Sources */,
 				DECD462A2CE4E9CD0091A803 /* ProfileCalendarDayCell.swift in Sources */,
 				DECD462B2CE4E9CD0091A803 /* TapAreaButton.swift in Sources */,
@@ -2598,7 +2594,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2613,7 +2609,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = train.pilates2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2636,7 +2632,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2651,7 +2647,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = train.pilates2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
